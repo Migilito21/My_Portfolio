@@ -1,0 +1,258 @@
+body{
+    background: linear-gradient(to top ,black,rgb(0, 63, 58),rgb(121, 219, 255));
+    height: auto;
+    color: white;
+    border: 3px solid;
+    margin: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+
+nav{
+    background: transparent;
+    display: inline-block;
+    padding: 20px;
+    width: 98%;
+    height: 21px;
+    position: fixed;
+    z-index: 100;
+}
+
+a{
+    float: right;
+    padding-right: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes flash {
+    
+    50% { border: 3px solid red; }
+    
+}
+
+.flash {
+    animation: flash 1s;
+}
+
+#prof-cont{
+    border-radius: 50%;
+    padding-left: 0px;
+    width: 23rem;
+    height: 23rem;
+    border: 7px solid white;
+}
+#prof-img{
+    border-radius: 50%;
+    width: 23rem;
+    height: 23rem;
+    border: 7px;
+}
+.info{
+    float: right;
+    overflow: hidden;
+    padding-left: 5rem;
+    margin-top: 1em;
+    font-size: 45px;
+    line-height: .5em;
+}
+
+.info h1{
+    padding-top: 1rem;
+    height: 48px;
+    width: 12.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: normal;
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes type {
+    0%{width: 0; border-right: .1rem solid aqua;}
+    99.9%{border-right: .1rem solid rgb(119, 230, 253);}
+    100%{border: none;}
+}
+@-webkit-keyframes type{
+    0%{width: 0;}
+    99.9%{border-right: .1rem solid rgb(0, 208, 255);}
+    100%{border: none;}
+}
+
+.info p{
+    padding-top: 10px;
+    height: 40px;
+    width: 18rem;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: normal;
+    animation: typep 2s steps(40,end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes typep {
+    0%{width: 0; border-right: .1rem solid red;}
+    99.9%{border-right: .1rem solid rgb(119, 230, 253) ;}
+    100%{border: none;}
+}
+    @-webkit-keyframes typep{
+    0%{width: 0;}
+    99.9%{border-right: .1rem solid rgb(0, 208, 255);}
+    100%{border: none;}
+}
+#info-qa{
+    width: 3.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: normal;
+    animation: typepo 2s steps(35,end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes typepo {
+    0%{width: 0; border-right: .1rem solid rgb(255, 255, 255);}
+    99.9%{border-right: .1rem solid rgb(119, 230, 253) ;}
+    100%{border: none;}
+}
+    @-webkit-keyframes typepo {
+    0%{width: 0;}
+    99.9%{border-right: .1rem solid rgb(0, 208, 255);}
+    100%{border: none;}
+}
+
+ 
+.container{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    height: 50rem;
+    display: flex;
+    padding-top: 5%;
+
+}
+#profile{
+    background-image: url('assets/cityLights.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100vw;
+    padding: 10px;
+    height: 50rem;
+}
+
+
+.grid-item-title{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+.grid-item {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 23.5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.grid-item1 {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 23.5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+#certificates{
+    font-size: 28px;
+}
+
+#services{
+    display: flex;
+    margin-top: 10rem;
+    height: 26.5rem;
+    width: 100%;
+    border:solid;
+}
+#services div{
+    height: 91%;
+    width: 22rem;
+    padding-top: 10px;
+    margin-top: 9px;
+    margin-left: 4rem;
+    padding-left: 29px;
+    border: solid lightgrey;
+}
+#services div img{
+    height: 10rem;
+    padding-left: 85px;
+    width: 10rem;
+}
+#services h1{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+#contacts{
+    padding-top: 5rem;
+    margin-top: 23rem;
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+   display: block;
+   margin-left: 50px;
+   margin-right: auto;
+   position: absolute;  
+}
+.icons img{
+    width: 100px;
+    height: 100px;
+}
+
+  .card-carousel {
+    padding-top: 10rem;
+    --card-width: 80%;
+    --card-max-width: 25rem;
+    --card-height: 36rem;
+    --carousel-min-width: 90em;
+    position: relative;
+    height: var(--card-height);
+    min-width: var(--carousel-min-width);
+    transition: filter .3s ease;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .card-carousel {
+      margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+    }
+  }
+  
+  .card-carousel.smooth-return {
+    transition: all .2s ease;
+  }
+  
+  .card-carousel .card {
+    background: linear-gradient(to top ,rgb(250, 229, 229),rgb(173, 234, 229),rgb(121, 219, 255));
+    width: var(--card-width)    ;
+    max-width: var(--card-max-width); 
+    padding: 1em;
+    min-width: 250px;
+    height: var(--card-height);
+    position: absolute;
+    color: rgba(0,0,0,.5);
+    transition: inherit;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    border: 3px solid;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+

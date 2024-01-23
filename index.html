@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#contacts">Contacts</a>
+            <a href="#services">Services</a>
+            <a href="#" onclick="scrollToElement('intro')">Intro-Accomplishment-Certificates</a>
+            <a href="#profile" >Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <div class="container">
+                <div id="prof-cont">
+                <img id="prof-img" src="assets/RESUME PIC.jpg" alt="profile">
+                </div>
+                <div class="info">
+                    <h1>Miguel Brando A. Monacillo </h1>
+                    <p> Web Developer</p>
+                    <p id="info-qa"> QA </p>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="card-carousel">
+            <div class="card" id="certificates" data-x="0">
+                <div id="3">
+                    <div class="grid-item-title">Certificates</div>
+                    <div class="grid-item1">Leadership Training Certificate</div>
+                    <div class="grid-item1">Certificate of Completion from Informatics</div>
+                    <div class="grid-item1">Certificate of Completion from SouthWestern Computer Club</div>
+                    <div class="grid-item1">Directors List Award</div>
+                    <div class="grid-item1">Electronic Parts and Assembly System NC2 Passer</div>
+                    <div class="grid-item1">Computer System Servicing NC2 Passer</div>
+                </div>
+            </div>
+            <div class="card" id="intro" data-x="1">
+                <div id="1">
+                    <h1>Introduction</h1>
+                    <p>Hello there! Welcome to my Website, I am Miguel Brando A. Monacillo, a student of CITE with the course of Computer Engineering Technology. I have been a student of CITE for 3 years, and I am a graduating student. As an engineering student I strive to broaden my horizons with the complexities of the ever evolving world of technology. As a web developer, I can bring creativity and functionaly together to craft engaging and user-friendly websites.I am still in the process of my inplant training on Sun Asterisk, I will be training under their leaders for 1 year and 3 months. I am dedicated to deliver solutions that not only meet but exceed the user expectations. <br> <br>
+                    In addition to my web development knowledge, I have keen eye for quality assurance. I understand the critical importance of ensuring that software and applications not only functions seamlessly but also meet the highest standards of quality. With a careful approach, I can conduct thorough testing, identify potential issues, and collaborate with the development teams to implement effective solutions, contributing to the delivery of a reliable and high-performance software or product. <br> <br>
+                    My journey in Computer Engineering has equipped me with a strong foundation in problem-solving, contributing to algorithm design and process, and system architecture. I am encouraged by a continues desire to stay updated with the latest industry and technologies, which helps me to bring an innovative and efficient project output.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card" id="accomplishments" data-="2">
+                <div id="2">
+                    <div class="grid-item-title">Accomplishments</div>
+                   <ul>
+                    <li>Learned All about QA on udemy</li>
+                    <li>Helped in making the test cases on the Aironworks project</li>
+                    <li>Learned about sprints, scrum, and the project life-cycle</li>
+                    <li>Learned in-depth Vanilla JS</li>
+                    <li>Learned React.js framework</li>
+                    <li>Learned Next.js framework</li>
+                    <li>Learned Typescript</li>
+                    <li>Learned Node.js framework</li>
+                    <li>Learned about Jest</li>
+                    <li>Learned Prisma</li>
+                    <li>Learned NestJS framework</li>
+                    <li>Learned about GIT commands, pushing, pulling, and merging on github</li>
+                    <li>Got deployed on the E-Learning project</li>
+                    <li>Started on the Front end of the project on the first month on development</li>
+                    <li>Switched to backend of the project on the second monnth in the project</li>
+                    <li>Did both the Front-end and Back-end on the later stages of development</li>
+                    <li>Finished 8 tasks in total, 6 PR's successfully merged</li>
+                    <li>Kept on working with the project that is still ongoing</li>
+                   </ul>
+                </div>
+            </div>
+            
+           
+        </div>
+
+
+        <section id="services">
+            <h1>Services</h1>
+            
+                <div>
+                    <img src="assets/Dev.png" alt="Dev">
+                    <p style="padding-left: 8rem; font-size: 20px;">Developer</p>
+                <p style="margin-right: 10px;"> I offer a dedication to creating innovative and efficient solutions tailored to the business needs such as Web Developmen where building a responsive and user-friendly websites using the latest technologies such as HTML5, CSS3, JavaScript, React, and Node.js</p>
+                </div>
+                <div>
+                    <img src="assets/Tech Support.jpeg" alt="Hardware">
+                    <p style="padding-left: 7rem; font-size: 20px;">Tech Support</p>
+                    <p>I am capable of troubleshooting, handling, maintaining, managing and repairing IT systems. I can also diagnose software or hardware faults and solving the issues over the phone or in person.</p>
+                </div>
+                <div>
+                    <img src="assets/QA.jpg" alt="QA">
+                    <p style="padding-left: 6rem; font-size: 20px;">Quality Assurance</p>
+                    <p>I am able to design and execute test cases to identify defects or issues in the software. This involves both manual and automated testing. Documenting and tracking issues, bugs, or defects found during testing is also part of my set of skills as a QA Tester.</p>
+                </div>
+        </section>
+        
+        <section id="contacts">
+            <div class="icons">
+                <img src="assets/phone.png" alt="Call 09639018316" id="phoneLogo" onclick="showNumber()">
+                
+                <a href="https://web.facebook.com/mini.migs.12"><img src="assets/fb.jpg" alt="FB"></a>
+            
+                <a href="mailto:brandomiguel5000@gmail.com"><img src="assets/gmail.jpg" alt="Gmail"></a>
+            
+                <a href="https://www.instagram.com/migi._chan13"><img src="assets/insta.jpg" alt="Insta"></a>
+
+                <div id="phoneNumber" style="display: none;">Tnt/Smart Network: 09639018316</div>
+        </section>
+    </main>
+    
+</body>
+<script src="main.js"></script>
+</html>
