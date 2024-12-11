@@ -193,3 +193,75 @@ h1.company {
   animation: fadeIn 2s;
   font-size: 31px;
 }
+
+#journey_p6 {
+  text-align: left;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  left: 10px;
+  top: 10%;
+  width: 45vw;
+  border: 5px solid rgb(255, 72, 0);
+  animation: fadeIn 2s;
+  font-size: 31px;
+}
+
+#skillHeader{
+  text-align: left;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  font-size: 45px;
+  right: 32%;
+}
+
+#qaContainer{
+  text-align: left;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  left: 35px;
+  top: 15%;
+  width: 27vw;
+  font-size: 31px;
+}
+
+#bearSunLogo3{
+  position: fixed;
+  top: 33%;
+  width: 35%;
+  right: 33%;
+  opacity: 31%;
+}
+
+#devContainer{
+  text-align: left;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  right: 10px;
+  top: 15%;
+  width: 32vw;
+  font-size: 31px;
+}
+
+#projectsHeader{
+  text-align: left;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  font-size: 45px;
+  right: 24%;
+}
+
+#projectList{
+  text-align: left;
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+  left: 34px;
+  top: 15%;
+  width: 64vw;
+  font-size: 40px;
+}
